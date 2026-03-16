@@ -4,8 +4,22 @@
 <meta charset="UTF-8">
 <title>أكاديمية ختمة</title>
 
-<h1>أكاديمية ختمة</h1>
+<div class="center-text">أكاديمية ختمة</div>
 
+<style>
+.center-text {
+    position: fixed;       /* ثابت في المكان حتى عند التمرير */
+    top: 50%;              /* منتصف الصفحة عمودي */
+    left: 50%;             /* منتصف الصفحة أفقي */
+    transform: translate(-50%, -50%); /* لضبط المنتصف بالضبط */
+    font-size: 14px;       /* حجم صغير */
+    color: #000;           /* اللون أسود، تقدر تغيّره */
+    z-index: 9999;         /* يضمن ظهور النص فوق كل شيء */
+    text-align: center;    /* لمحاذاة الكلمة في المنتصف */
+    background: transparent; /* بدون خلفية */
+    pointer-events: none;  /* مش هتأثر على أي حاجة في الموقع */
+}
+</style>
   
 <!-- Meta Pixel Code -->
 <script>
@@ -31,7 +45,13 @@ src="https://www.facebook.com/tr?id=1547178853694288&ev=PageView&noscript=1"/>
 </head>
 
 <body>
+<div style="width:100%;height:500px;"
+data-fillout-id="hQEpn971Fous"
+data-fillout-embed-type="standard"
+data-fillout-inherit-parameters
+data-fillout-dynamic-resize></div>
 
+<script src="https://server.fillout.com/embed/v1/"></script>
 
 </body>
 </html>
